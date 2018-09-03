@@ -1,0 +1,246 @@
+body{
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.form{
+  width:350px;
+  height:auto;
+  margin: 0 auto;
+  transform: translate(0, 30%);
+}
+
+.form .submit{
+  padding: 10px;
+  display: inline-block;
+  height: auto;
+  float: right;
+}
+
+#logo {
+  width: 90%; display: block; margin-left: auto; margin-right: auto; padding-bottom: 8vh;
+}
+
+.submit .logout {
+  background-color: #021f47;
+}
+
+input[type=text] + label, input[type=password] + label, input[type=email] + label {
+  color: rgb(78, 78, 78);
+}
+
+.loginfield input[type=text], .loginfield input[type=password]{
+  border-bottom: 1px solid rgb(78, 78, 78);
+  box-shadow: 0 1px 0 0 rgb(78, 78, 78);
+}
+
+input[type=text]:focus + label, input[type=password]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: #3a77d2 !important;
+}
+
+input[type=text]:focus, input[type=password]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #3a77d2 !important;
+  box-shadow: 0 1px 0 0 #3a77d2 !important;
+}
+ul.dropdown-content.select-dropdown li span {
+    color: #3a77d2;
+}
+input[type=email]:focus{
+  color: #3a77d2;
+  border-bottom: 1px solid #3a77d2 !important;
+  box-shadow: 0 1px 0 0 #3a77d2 !important;
+}
+
+input[type=email]:focus + label {
+  color: #3a77d2;
+}
+
+.datepicker-date-display, .datepicker-table td.is-selected{
+  background-color: #3a77d2;
+}
+.datepicker-table td.is-today{
+  color: red;
+}
+
+.datepicker-cancel, .datepicker-done{
+  color: #3a77d2;
+}
+
+ul#dropdown1.dropdown-content {
+  width: auto !important;
+  top: 12vh !important;
+}
+nav{
+  background-color: white;
+}
+
+#modal2{
+  width: 30vw !important;
+}
+
+.modal-banner{
+  background-color: #3a77d2;
+  width: 30vw !important ;
+  height: 20vh !important ;
+  margin-left: -24px;
+  margin-top: -25px;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #3a77d2;
+}
+.rightpanel{
+  margin-top: 20px;
+}
+.rightbanner{
+  color: black;
+  font-size: 4vh;
+  width: 100%;
+  text-align: center;
+}
+.taskslist{
+  height: 8vh;
+  font-size: 3vh;
+  width: 90%;
+  padding-top: 1vh;
+  padding-left: 10px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.tasksdiv{
+  height: auto;
+  font-size: 3vh;
+  width: 95%;
+
+
+  background-color: red;
+}
+.taskslist:hover{
+  box-shadow: 1px 2px 3px 4px rgba(0,0,0,0.75)
+}
+.taskslist2{
+  padding: 2px;
+}
+
+.formx{
+  margin-top: 100px;
+}
+.assign{
+  font-size: 4vh;
+  position: absolute;
+}
+.assign:hover{
+  color: #3a77d2;
+}
+.imaga{
+  position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#slides {
+	display: none
+}
+
+#slides .slidesjs-navigation {
+	margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+	background-image: url('css/btns-next-prev.png');
+	background-repeat: no-repeat;
+	display:block;
+	width:12px;
+	height:18px;
+	overflow: hidden;
+	text-indent: -9999px;
+	float: left;
+	margin-right:5px;
+  margin-bottom: 5px;
+  background-color: red;
+}
+
+a.slidesjs-next {
+	margin-right:10px;
+	background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+	background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+	background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+	background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+	width:15px;
+	background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+	background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+	width:18px;
+	background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+	background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+	margin: 7px 0 0;
+	float: right;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url('css/pagination.png');
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020
+}
